@@ -1,0 +1,127 @@
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header and Navigation */
+header {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #003d80;
+}
+
+/* Section Styling */
+section {
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h2 {
+  color: #0056b3;
+  border-bottom: 2px solid #0056b3;
+  display: block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Profile Image */
+.profile-img {
+  width: 350px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 20px auto;
+  display: block;
+}
+
+/* Table Styling */
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #0056b3;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Projects */
+.project {
+  background-color: #f4f7ff;
+  padding: 20px;
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 70%;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons */
+button {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003d80;
+}
+
+/* Back to Top Button */
+#back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #0056b3;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+#back-to-top:hover {
+  background-color: #003d80;
+}
+
+
